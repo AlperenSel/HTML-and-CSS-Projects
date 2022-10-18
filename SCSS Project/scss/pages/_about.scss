@@ -1,0 +1,115 @@
+.img-about{
+    background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../img/model-1.jpg);
+    background-position:center;
+    background-size: cover;
+}
+.navbar-about{
+    height: 60px;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        list-style-type: none;
+        li{ 
+            margin-right: 40px;
+            a{
+                transition-property: all;
+                transition-duration: 700ms;
+                text-decoration: none;
+                color: $wht;
+                font-weight: bold;
+                font-size: 22px;
+                &:hover{
+                    color: $hover-color;
+                }
+                &:active{
+                    color: $org;
+                }
+            }
+        }
+    }
+}
+.main-about{
+    height: 300px;
+    margin-bottom: 20px;
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: end;
+        height: 100%;  
+        h1{
+            font-size: 3rem;
+            color: $org;
+            margin-bottom: 30px;
+        }
+        p{
+           font-size: 20px; 
+           margin-left: 20px;
+           margin-right: 20px;
+           margin-bottom: 30px;
+        } 
+    }
+}
+.section2{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    .s1, .s2, .s3{
+        margin-top: 20px;
+        background-color: $bg2-color;
+        padding: 1rem;
+        border-bottom: $org solid 5px;
+    }
+}
+.footer-about{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    ul{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 0;
+        right: left;
+        li{
+            display: flex;
+            margin-right: 15px;
+            margin-bottom: 15px; 
+            margin-left: 40px;
+                   
+             a{
+                transition-property: all;
+                transition-duration: 700ms;
+                color: $wht;
+                &:hover{
+                    color: $org;
+                }
+                &:active{
+                    color: $org;
+                }
+               
+            .fa-brands{  
+                font-size: 30px;
+                }
+            }     
+         } 
+     
+    }
+    .copy{
+        display: flex;
+        align-items: center;
+        justify-content: center;       
+        font-size: 18px;
+        position: fixed;
+        bottom: 1.5rem;
+        right: 3rem;
+        transform: rotate(90deg) translate(-3rem, -5rem);
+    }
+
+}

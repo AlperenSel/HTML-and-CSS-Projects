@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+body{
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 16px;
+    line-height: 1.4;
+    background-color: #A9508B;
+}
+.nav{
+    height: 150px;
+    min-height: 150px;
+    font-size: 20px;
+    background-color: #35424A;
+}
+.container{
+    max-width: 1200px;
+    margin: 2px auto;
+}
+.nav .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul a:hover{
+    color: #A9508B;
+    text-decoration: underline;
+}
+.nav .container .navbar {
+    display: flex;
+    margin-right: 15px;
+}
+.nav .container ul li{
+    margin-right: 10px;
+}
+.clarusway {
+    color: #A9508B;
+}
+.section1 {
+    height: 450px;
+    background-image: url(../img/showcase.jpg);
+}
+.section1 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+.mainhead{
+    font-size: 40px;
+}
+.mainp{
+    font-size: 16px;
+    text-align: center;
+    align-self: center; 
+}
+.section2{
+    height: 100px;
+    background-color: #35424A;
+}
+.section2 .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.sub-button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #A9508B;
+    border-radius: 10px;
+    
+}
+.mail{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+.b1img, .b2img, .b3img{
+    width: 130px;
+}
+.section3{
+    height: 450px;
+    background-color: bisque;
+}
+.section3 .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.box1, .box2, .box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.footi{
+    width: 200px;
+    height: 100px;
+}

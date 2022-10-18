@@ -1,0 +1,105 @@
+.navbar-contact{
+    height: 60px;
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        list-style-type: none;
+        li{ 
+            margin-right: 40px;
+            a{
+                transition-property: all;
+                transition-duration: 700ms;
+                text-decoration: none;
+                color: $wht;
+                font-weight: bold;
+                font-size: 22px;
+                &:hover{
+                    color: $hover-color;
+                }
+                &:active{
+                    color: $org;
+                }
+            }
+        }
+    }
+}
+
+.main-contact{
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        margin-top: 130px;
+        font-weight: 400;
+        font-size: 45px;
+    }
+    .container-contact{
+        display: flex;
+        margin-top: 20px;
+        div{
+            margin-right: 30px;
+            font-size: 26px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1;
+            text-transform: capitalize;
+            .info-contact{
+                color: $org;
+            }
+            i{
+                margin-right: 5px;
+                font-size: 30px;
+            }
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ul{
+        display: flex;
+        margin-bottom: 20px;
+        li{
+            display: flex;
+            margin-right: 15px;          
+             a{
+                transition-property: all;
+                transition-duration: 700ms;
+                color: $wht;
+                &:hover{
+                    color: $org;
+                }
+                &:active{
+                    color: $org;
+                }
+               
+            .fa-brands{   
+                font-size: 30px;
+                }
+            }     
+         } 
+     
+    }
+    .copy{
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        margin-right: 10px;
+        font-size: 18px;
+    }    
+}
